@@ -13,7 +13,7 @@ One can reconstruct the cell state vector field from RNA velocity with `dyn.vf.V
 
 ## 4. Quantifying landscape-flux of cancer progression
 One could simulate stochastic dynamics by solving the Langevin equation based on the analytical function to get the steady-state probability distribution and quantify the non-equilibrium landscape and flux. 
-For example, one can run `landscape_multi.py` in `./landscape-flux/mouse_lung_cancer` to generate the steady-state probability distribution of the dynamics of cancer progression. The step can output grid data (`Xgrid.csv`, `Ygrid.csv`), probability distribution data (`p_tra.csv`), and stochastic force distribution data (`mean_Fx.csv`, `mean_Fy.csv`). Then, `plot_landscape_path.m` in `./landscape-flux` can be run to plot the landscape and least action path.
+For example, one can run `landscape_multi.py` in `./landscape-flux` to generate the steady-state probability distribution of the dynamics of cancer progression. The step can output grid data (`Xgrid.csv`, `Ygrid.csv`), probability distribution data (`p_tra.csv`), and stochastic force distribution data (`mean_Fx.csv`, `mean_Fy.csv`). Then, `plot_landscape_path.m` in `./landscape-flux` can be run to plot the landscape and least action path.
 
 ## 5. Deciphering early warning indicators
 ### Transition Nucleation & Transition state and Pioneer gene
