@@ -28,5 +28,3 @@ The cell complexity index (CCI) and gene complexity index (GCI) be quantified by
 ### Note: 
 One can reproduce the results by running `.ipynb` files in `./notebook`, please note that the name of the notebook file may be inconsistent with the officially published article. Of course, users can also load user-defined data for analysis following the tutorials.
 
-## Cite:
-Zhu L, Wang J. Deciphering early warning for cancer progression from single-cell transcriptomics and lineage-tracing. (2025).
