@@ -4,6 +4,7 @@
 # Analysis tutorials
 ## 1. Raw data
 The raw sequencing reads data can be downloaded from ENA with an accession number [PRJNA803321](https://www.ebi.ac.uk/ena/browser/view/PRJNA803321). The processed data can be downloaded from [KPTracer-Data](https://zenodo.org/records/5847462).
+The processed data for this study can be downloaded from [zenodo](https://doi.org/10.5281/zenodo.15464936).
 
 ## 2. Estimating RNA velocity
 First, [Cellranger](https://github.com/10XGenomics/cellranger) be used to process the raw data to get the count data, and then one can utilize [Samtools](https://github.com/samtools/samtools), [Velocyto](https://github.com/velocyto-team/velocyto.py) to quantify spliced counts and unspliced counts for each gene. Then, RNA velocity could be estimated by various toolkits following the protocol under the default parameters, for example, [Velocyto](https://github.com/velocyto-team/velocyto.py), [Scvelo](https://github.com/theislab/scvelo), [Dynamo](https://github.com/aristoteleo/dynamo-release), etc. 
